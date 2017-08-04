@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{35F128CB-6E37-4255-A089-A446F9DDC90F}|Default">
+  <MonoDevelop.Ide.ItemProperties.Calendar.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.570A5FE1-2E68-4A37-B3F7-E97B4F970EF3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Calendar/UserProfile.xaml">
+    <Files>
+      <File FileName="Calendar Status" />
+      <File FileName="Calendar/App.xaml.cs" Line="23" Column="24" />
+      <File FileName="Calendar/App.xaml" Line="7" Column="1" />
+      <File FileName="Calendar/CalendarPage.xaml" Line="31" Column="34" />
+      <File FileName="Calendar/DisplayEvents.xaml" Line="11" Column="5" />
+      <File FileName="Calendar/DisplayEvents.xaml.cs" Line="14" Column="20" />
+      <File FileName="Calendar/UserProfile.xaml.cs" Line="1" Column="1" />
+      <File FileName="Calendar/CalendarPage.xaml.cs" Line="21" Column="33" />
+      <File FileName="iOS/LaunchScreen.storyboard" />
+      <File FileName="Calendar/CreateEvent.xaml" Line="6" Column="96" />
+      <File FileName="Calendar/CreateEvent.xaml.cs" Line="17" Column="11" />
+      <File FileName="Calendar/UserProfile.xaml" Line="2" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Calendar.Droid PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Calendar" 
+        x:Class="Calendar.CalendarPage"
+        Title="Calendar Home"
+        MasterBehavior="Popover"  
+        >
+        <Label Text="Welcome to Xamarin Forms!" VerticalOptions="Center" HorizontalOptions="Center" />
+
+         <!-- Master Detail Layout used for the home/main screen of the app-->
+        <MasterDetailPage.Master>
+            
+            <ContentPage Padding="10" BackgroundColor="Blue" Title="Calendar Options" Icon="hamburger.png">
+                <ContentPage.Content>
+                     <!--Stack Layout to arrange all the User Interface elements in the main screen-->
+                    <StackLayout Margin="5,30,5,5">
+                        <!-- <Label Text="Home Page">
+                        </Label>-->
+
+                        <!-- User Option buttons on the Home Screen-->
+                        <Button Text="Create Event" BackgroundColor="Yellow" Clicked="Handle_CreateEvent_Clicked"></Button>   
+
+                        <Button Text="Display Events" BackgroundColor="Yellow" Clicked="Handle_DisplayEvent_Clicked"></Button> 
+
+                        <Button Text="View Profile" BackgroundColor="Yellow" Clicked="Handle_DisplayProfile_Clicked"></Button> 
+                        
+                    </StackLayout>
+                </ContentPage.Content>
+            </ContentPage>
+        </MasterDetailPage.Master>
+
+        <!--Detail View Layout-->
+        <MasterDetailPage.Detail>
+            <ContentPage Padding="10" BackgroundColor="Purple">
+                <ContentPage.Content>
+                    <StackLayout Margin="5,30,5,5">
+                        <Label Text="Create Event">
+                        </Label>
+                    </StackLayout>
+                </ContentPage.Content>
+            </ContentPage>
+        </MasterDetailPage.Detail>
+
+        
+    </MasterDetailPage>

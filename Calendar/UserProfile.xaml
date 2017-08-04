@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+        x:Class="Calendar.UserProfile" BackgroundColor="Aqua">
+
+        <!--Lay out all the user interface components for the user profile form in a stack layout-->
+        <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="Aqua">
+
+                        <Label Text="User Profile" FontAttributes="Bold" 
+                                HorizontalTextAlignment="Center">
+                            </Label>
+                                 <Entry Placeholder="Name"/>
+                                 <Entry Placeholder="Gender"/>
+                                 <Entry Placeholder="Country"/>
+                                 <Entry Placeholder="Phone"/>
+                                 <Label Text="Birthday"/>
+                                 <DatePicker DateSelected="Handle_DateSelected"></DatePicker>
+                                  <Button Text="Save Profile" BackgroundColor="Yellow" Clicked="Handle_Profile_Saved"></Button>  
+            </StackLayout>
+    </ContentPage>

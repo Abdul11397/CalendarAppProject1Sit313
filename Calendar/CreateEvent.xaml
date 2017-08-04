@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Calendar.CreateEvent" BackgroundColor="Aqua">
+
+             <!-- Lay out all the user interface elements of the Create Event page in a Stack Layout-->
+            <StackLayout Orientation="Vertical" VerticalOptions="Start" BackgroundColor="Aqua">
+
+                        <Label Text="Create a Calendar Event" FontAttributes="Bold" 
+                                HorizontalTextAlignment="Center">
+                            </Label>
+                                 <Entry Placeholder="Event Title"/>
+                                 <Entry Placeholder="Location"/>
+                                 <DatePicker DateSelected="Handle_DateSelected"></DatePicker>
+                                 <TimePicker></TimePicker>
+                                  <Picker Title="Event Mood">
+                                     <Picker.Items>
+                                        <x:String>Happy</x:String>
+                                         <x:String>Excited</x:String>
+                                         <x:String>Serious</x:String> 
+                                         <x:String>Sad</x:String>
+                                     </Picker.Items>
+                                  </Picker>
+                                  <Button Text="Save Event" BackgroundColor="Yellow" Clicked="Handle_CreateEvent_Saved"></Button>  
+            </StackLayout>
+
+        </ContentPage>
